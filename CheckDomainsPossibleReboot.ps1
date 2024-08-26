@@ -8,7 +8,7 @@
 $dnsServer = "8.8.8.8"  # Replace with your desired DNS server IP
 
 # Path to the file containing domain names
-$domainFile = "C:\path\to\your\domains.txt"
+$domainFile = "C:\AaronSQL2019_SysAdmin\CheckDomainsPossibleReboot.txt"
 
 # Read the domain names from the file
 $domains = Get-Content -Path $domainFile
